@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.uni-padding-x {
+  @apply px-4 md:px-16;
+}
+
+.revert-uni-padding-x {
+  @apply px-0 md:px-0 !important;
+}
